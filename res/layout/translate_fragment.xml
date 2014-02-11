@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfeef4"
+    android:orientation="vertical" >
+	
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">t
+
+	    <EditText
+	        android:id="@+id/translation_query_box"
+	        android:inputType="text"
+	        android:layout_width="0dp"
+	        android:layout_height="35dp"
+	        android:layout_weight="1.90"
+	        android:background="#FFFF"
+	        android:ems="4"
+	        android:layout_marginLeft="5dp" >
+
+	    </EditText>
+	    
+	    <Button 
+	        android:id="@+id/translate_button"
+	        android:text="@string/translate_button"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"/>
+    
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+	    
+        <Spinner 
+            android:id="@+id/translation_website_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/translation_website_array"/>
+        
+        
+    </LinearLayout>
+    
+    
+    <WebView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/translation_webView"/>
+    
+
+</LinearLayout>

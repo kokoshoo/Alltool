@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AllTool</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_translate">Translate</string>
+    <string name="title_convert">Convert</string>
+    <string name="title_music">Music</string>
+    <string name="nothing_here">아무것도 없읍니다~~</string>
+    <string name="left_currency_prompt">United States</string>
+    <string name="default_currency_val">0</string>
+	<string name="convert_money_label"><u>Money</u></string>
+	<string name="convert_button">Convert</string>
+	<string name="swap_button">Swap</string>
+	<string name="convert_distance_label"><u>Distance</u></string>
+	<string name="km_to_miles_radioButton">KM to Miles</string>
+	<string name="miles_to_km_radioButton">Miles to KM</string>
+	<string name="convert_weight_label">Weight</string>
+	<string name="kg_to_lbs_radioButton">KG to Pounds</string>
+	<string name="lbs_to_kg_radioButton">Pounds to KG</string>
+	<string name="convert_temperature_label">Temperature</string>
+	<string name="c_to_f_radioButton">°C to °F</string>
+	<string name="f_to_c_radioButton">°F to °C</string>
+	<string name="translate_button">Translate</string>
+	<string name="play_button">Play</string>
+	<string name="stop_button">Stop</string>
+	
+	<string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+	
+    <string-array name="currency_array">
+        <item>Korea</item>
+        <item>United Kingdom</item>
+		<item>United States</item>
+    </string-array>
+    
+    <string-array name="translation_website_array">
+        <item>Naver</item>
+        <item>Google</item>
+        <item>Daum</item>
+    </string-array>
+		
+    
+</resources>
